@@ -5,7 +5,9 @@
 FROM ubuntu:18.04
 MAINTAINER MarkusMcNugen
 
-VOLUME /downloads
+VOLUME /D
+VOLUME /E
+VOLUME /F
 VOLUME /config
 
 ENV DEBIAN_FRONTEND noninteractive
